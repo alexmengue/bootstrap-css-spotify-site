@@ -101,6 +101,8 @@ h3 {
 .btn-custom {
     color: #fff;
     border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
     text-transform: uppercase;
     padding: 10px 20px;
 }
@@ -125,4 +127,73 @@ h3 {
 
 .carousel-control-next, .carousel-control-prev {
     width: 5%;
+}
+
+#services {
+    background: #fff;
+}
+
+#services h2, h3 {
+    color: #7c25f8;
+}
+
+.albuns {
+    padding: 10px 0;
+}
+
+.box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#resources {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+#resources h3 {
+    color: #9bf0e1;
+}
+
+#resources h2 {
+    color: #fff;
+}
+
+.rotate {
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+footer {
+	background: #000;
+	padding: 50px 0 20px 0;
+	position: relative;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: #fff;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 0 7px;
 }
